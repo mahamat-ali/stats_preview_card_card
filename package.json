@@ -1,0 +1,19 @@
+{
+  "name": "02_stats_preview_cad_component",
+  "version": "1.0.0",
+  "description": "A practice from front-end master",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mahamat-ali/stats_preview_card_card.git"
+  },
+  "author": "mahamat ali",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mahamat-ali/stats_preview_card_card/issues"
+  },
+  "homepage": "https://github.com/mahamat-ali/stats_preview_card_card#readme"
+}

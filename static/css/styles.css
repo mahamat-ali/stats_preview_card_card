@@ -80,7 +80,7 @@ section p{
 
 
 .article-cover{
-  background-image: linear-gradient(rgba(170, 92, 219, 0.78),rgba(170, 92, 219, 0.75)),url('./images/image-header-desktop.jpg');
+  background-image: linear-gradient(rgba(170, 92, 219, 0.78),rgba(170, 92, 219, 0.75)),url('../media/image-header-desktop.jpg');
   width: 50%;
   border-bottom-left-radius: 0;
   border-top-left-radius: 0;
