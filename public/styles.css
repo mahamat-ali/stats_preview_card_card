@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Inter', sans-serif;
+  background: hsl(233, 47%, 7%);
+  font-weight: 700;
+  font-size: 15px;
+  position: relative;
+}
+
+.main-section, .article, .article-cover{
+   border-radius: 10px;
+}
+
+.main-section{
+  height: 500px;
+  width: 1300px;
+  margin: 200px auto;
+  display: flex;
+}
+
+.article{
+  padding: 70px 100px 0 80px;
+  width: 50%;
+  border-bottom-right-radius: 0;
+  border-top-right-radius: 0;
+  background-color:  hsl(244, 38%, 16%);
+}
+
+.article-heading{
+  color: hsl(0, 0%, 100%);
+  font-size: 40px;
+  line-height: 1.4;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+.article-heading span{
+  color: hsl(277, 64%, 61%)
+}
+
+.article-text{
+  width: 80%;
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: left;
+  color: hsla(0, 0%, 100%, 0.6);
+  font-weight: 400;
+  margin-bottom: 70px;
+}
+
+
+section{
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+}
+
+section h3{
+  font-size: 26px;
+  font-weight: 700;
+  color: hsl(0, 0%, 100%);
+  margin-bottom: 6px;
+}
+
+section p{
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 12px;
+  color: hsla(0, 0%, 100%, 0.6);
+}
+
+
+
+
+.article-cover{
+  background-image: linear-gradient(rgba(170, 92, 219, 0.78),rgba(170, 92, 219, 0.75)),url('./images/image-header-desktop.jpg');
+  width: 50%;
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
+  background-size: contain;
+}
